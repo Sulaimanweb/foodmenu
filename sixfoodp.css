@@ -1,0 +1,257 @@
+body{
+	background-color: #C40BD5;
+	position: absolute;
+	top: 140%;
+	left: 30%;
+
+	transform: translate(-30%, -50%);
+}
+.btn1{
+	display: flex;
+	--gap: 1rem;
+}
+.btn1 > * {
+	margin-left: var(--gap);
+}
+.btnlist{
+	padding: 10px 84px 10px 84px;
+	background-color: #FFCA10;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+.sevenw{
+	padding: 10px 75px 10px 75px;
+	background-color: #FFCA10;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+.tenw{
+	padding: 10px 55px 10px 55px;
+	background-color: #FFCA10;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+.imagone{
+
+	width: 120%;
+	height: 430px;
+	margin-left: 16px;
+}
+.imgtext{
+	margin-top: 30px;
+	display: flex;
+}
+.timg1{
+	margin-left: 170px;
+
+}
+nav{
+	background-color: #FFCA10;
+	margin-top: 30px;
+	padding: 35px 133px 35px 133px;
+}
+main{
+	background-color: #FFCA10;
+	margin-top: 0px;
+	padding: 35px 110px 35px 110px;
+
+}
+.text2{
+	font-size: 35px;
+	margin-left: 10px;
+}
+.text3{
+	font-size: 35px;
+	margin-right: 10px;
+}
+.tac1{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: -25px;
+	}
+
+.dami{
+	position: absolute;
+	left: 8%;
+	top: 15%;
+}
+.taco{
+	background-color: #FFCA10;
+	font-family: sans-serif;
+	font-weight:bold;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+}
+.tac11{
+	position: absolute;
+	left: 8%;
+	top:20%;
+}
+.taco1{
+	color: white;
+	background-color: #FFCA10;
+	font-family: sans-serif;
+	font-weight:bold;
+	font-size: 15px;
+}
+.alltacos{
+	text-align: center;
+	display: flex;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.taclist{
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	margin-right: 10px;
+}
+.tacimg{
+	font-size: 50px;
+	margin-top: -5px;
+}
+.headtac{
+	margin-top: -40px;
+	font-family: sans-serif;
+}
+.paratac{
+	color: #756D6D;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.beerlist{
+	padding: 20px 10px 20px 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.beerimg{
+	font-size: 50px;
+	margin-top: -5px;
+}
+.headbeer{
+	margin-top: -40px;
+	font-family: sans-serif;
+}
+.parabeer{
+	color: #756D6D;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.winelist{
+	padding: 20px 10px 20px 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.wineimg{
+	font-size: 50px;
+	margin-top: -5px;
+}
+.winehead{
+	margin-top: -40px;
+	font-family: sans-serif;
+}
+.winepara{
+	color: #756D6D;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.musiclist{
+	padding: 20px 10px 20px 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.musicimg{
+	font-size: 50px;
+	margin-top: -5px;
+}
+.musichead{
+	margin-top: -40px;
+	font-family: sans-serif;
+}
+.musicpara{
+	color: #756D6D;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.bigtaco{
+	background-color: white;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.imgbigtaco{
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+.lastposi{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+}
+.head1{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.bothinone{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.botn1{
+	background-color: #E1B60C;
+	padding: 10px 20px 10px 20px;
+	border: none;
+}
+.lasttext{
+	font-family: sans-serif;
+	margin: 100px;
+	text-align: center;
+	font-size: 20px;
+	max-width: 900px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lasttext :before{
+	content:"";
+	display: block;
+	width: 120px;
+	height: 5px;
+	background:#E4AC35;
+	position: absolute;
+	left: 26%;
+	top: 50%;
+}
+.lasttext :after{
+	content:"";
+	display: block;
+	width: 120px;
+	height: 5px;
+	background:#E4AC35;
+	position: absolute;
+	right: 26%;
+	top: 50%;
+}
+.finalim{
+	float: left;
+	width: 19%;
+	padding: 5px;
+	margin-left: 1.5px;
+}
+.lastim{
+	content:"";
+	display: table;
+
+}
